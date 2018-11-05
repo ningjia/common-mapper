@@ -43,10 +43,14 @@ public interface UserMapper extends Mapper<User> {
 
 ### 二、使用通用Service
 
-1. 业务Service、ServiceImpl继承BaseService、BaseServiceImpl
+1. 业务Service、ServiceImpl继承BaseService、BaseServiceImpl，之后可直接调用父类方法完成CRUD操作；
 
 可参见CompanyService、CompanyServiceImpl
+
+2. 
+
 
 ## 测试
 
 - http://127.0.0.1:8080/company
+- http://127.0.0.1:8080/employer/Cindy

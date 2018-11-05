@@ -13,12 +13,9 @@ public class Company {
 
     private String name;
 
-//    private String desc;
-
     public Company(Integer companyid, String name) {
         this.companyid = companyid;
         this.name = name;
-//        this.desc = desc;
     }
 
     public Company() {
@@ -40,13 +37,5 @@ public class Company {
     public void setName(String name) {
         this.name = name == null ? null : name.trim();
     }
-
-//    public String getDesc() {
-//        return desc;
-//    }
-
-//    public void setDesc(String desc) {
-//        this.desc = desc == null ? null : desc.trim();
-//    }
 
 }

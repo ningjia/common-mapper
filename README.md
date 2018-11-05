@@ -56,3 +56,8 @@ public interface UserMapper extends Mapper<User> {
 
 - 直接调用通用Mapper：http://127.0.0.1:8080/company
 - 调用自定义的查询Sql：http://127.0.0.1:8080/employer/Cindy
+
+## Refer
+
+- [SpringBoot 快速整合Mybatis（去XML化+通用Service）](https://www.jianshu.com/p/4b4e75952e74)
+- [MyBatis 通用 Mapper4](https://github.com/abel533/Mapper)

@@ -47,10 +47,12 @@ public interface UserMapper extends Mapper<User> {
 
 可参见CompanyService、CompanyServiceImpl
 
-2. 
+2. 需要自定义开发Sql时，可在Mapper中自定义；
+
+可参见EmployerMapper
 
 
 ## 测试
 
-- http://127.0.0.1:8080/company
-- http://127.0.0.1:8080/employer/Cindy
+- 直接调用通用Mapper：http://127.0.0.1:8080/company
+- 调用自定义的查询Sql：http://127.0.0.1:8080/employer/Cindy

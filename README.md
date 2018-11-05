@@ -61,3 +61,4 @@ public interface UserMapper extends Mapper<User> {
 
 - [SpringBoot 快速整合Mybatis（去XML化+通用Service）](https://www.jianshu.com/p/4b4e75952e74)
 - [MyBatis 通用 Mapper4](https://github.com/abel533/Mapper)
+- [Mapper3通用接口大全](https://blog.csdn.net/fangwenzheng88/article/details/78713091?utm_source=blogxgwz5)
